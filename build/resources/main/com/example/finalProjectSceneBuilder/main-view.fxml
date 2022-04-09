@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.finalProjectSceneBuilder.HelloController">
+   <children>
+      <Label alignment="CENTER" prefHeight="105.0" prefWidth="600.0" text="Tic-Tac-Toe Game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <GridPane prefHeight="271.0" prefWidth="588.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="279.0" prefWidth="381.0" text="Player O" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="308.0" prefWidth="399.0" text="Player X" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+   </children>
+</VBox>
