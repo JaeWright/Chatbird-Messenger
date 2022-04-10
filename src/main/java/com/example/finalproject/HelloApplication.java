@@ -19,6 +19,7 @@ public class HelloApplication extends Application {
 
     @Override
 <<<<<<< HEAD
+<<<<<<< HEAD
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("game-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 600);
@@ -26,6 +27,8 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
 =======
+=======
+>>>>>>> ed730646eca07883186c8a1187d03e636ca8fe9f
     public void start(Stage stage) {
         try {
 
@@ -75,6 +78,9 @@ public class HelloApplication extends Application {
                 System.out.println("STARTING GAME");
             }
         };
+<<<<<<< HEAD
+>>>>>>> ed730646eca07883186c8a1187d03e636ca8fe9f
+=======
 >>>>>>> ed730646eca07883186c8a1187d03e636ca8fe9f
     }
 
