@@ -5,7 +5,7 @@
 ## DONE BY: 
 
 1. Amit Sarvate (100794129)
-2. Jaelen Wright ()
+2. Jaelen Wright (100790481)
 3. Amanda Showler ()
 4. Jackie Bai Tian Jiang (100789604)
 
