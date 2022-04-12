@@ -4,10 +4,20 @@ import java.util.Arrays;
 
 public class TicTacToe {
     private char[][] board = new char[3][3];
-    private char currentPlayer = 'X';
-    private char otherPlayer = 'O';
+    private char currentPlayer;
+    private char otherPlayer;
+
+    public static char player;
 
     public TicTacToe() {
+        if ('X' == player){
+            currentPlayer = 'X';
+            otherPlayer = 'O';
+        }else {
+            currentPlayer = 'O';
+            otherPlayer = 'X';
+        }
+
         System.out.println("Tic Tac Toe");
         initialize();
         printBoard();

@@ -1,11 +1,19 @@
 package com.example.finalproject;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
 
+import java.io.IOException;
 import java.net.URL;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 public class HelloController implements Initializable {
@@ -210,8 +218,39 @@ public class HelloController implements Initializable {
         tile22.setDisable(false);
         tile22.setText("[2,2]");
     }
+    private Stage stage;
+    private Parent root;
+
+    public void newGame(ActionEvent event) throws IOException {
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(
+            "main-view.fxml")));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root,600,400);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public void startGameX(ActionEvent event) throws IOException {
+        TicTacToe.player = 'X';
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(
+            "game-view.fxml")));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root,500,600);
+        stage.setScene(scene);
+        stage.show();
+    }
+    public void startGameO(ActionEvent event) throws IOException {
+        TicTacToe.player = 'O';
+        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(
+            "game-view.fxml")));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root,500,600);
+        stage.setScene(scene);
+        stage.show();
+    }
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        currentPlayer.setText("Current Player is: "+ticTacToeGame.getCurrentPlayer());
+
     }
 }
