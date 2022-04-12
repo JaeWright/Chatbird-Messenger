@@ -7,9 +7,7 @@ public class TicTacToe {
     private char currentPlayer;
     private char otherPlayer;
 
-    public static char player;
-
-    public TicTacToe() {
+    public TicTacToe(char player) {
         if ('X' == player){
             currentPlayer = 'X';
             otherPlayer = 'O';

@@ -16,7 +16,7 @@ import java.net.URL;
 import java.util.Objects;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable {
+public class GameController implements Initializable {
     public Button tile00;
     public Button tile01;
     public Button tile02;
@@ -30,7 +30,8 @@ public class HelloController implements Initializable {
     public Button tile22;
     public Label currentPlayer;
 
-    public TicTacToe ticTacToeGame = new TicTacToe();
+    public static char player = 'X';
+    public TicTacToe ticTacToeGame;
     @FXML
     protected void buttonClick00() {
         String player = String.valueOf(ticTacToeGame.getCurrentPlayer());
@@ -218,6 +219,12 @@ public class HelloController implements Initializable {
         tile22.setDisable(false);
         tile22.setText("[2,2]");
     }
+    public void setPlayer(char p){
+        //currentPlayer.setText("You pressed: "+p);
+        ticTacToeGame = new TicTacToe(p);
+        currentPlayer.setText("Current Player is: "+ticTacToeGame.getCurrentPlayer());
+    }
+
     private Stage stage;
     private Parent root;
 
@@ -226,25 +233,6 @@ public class HelloController implements Initializable {
             "main-view.fxml")));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root,600,400);
-        stage.setScene(scene);
-        stage.show();
-    }
-
-    public void startGameX(ActionEvent event) throws IOException {
-        TicTacToe.player = 'X';
-        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(
-            "game-view.fxml")));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root,500,600);
-        stage.setScene(scene);
-        stage.show();
-    }
-    public void startGameO(ActionEvent event) throws IOException {
-        TicTacToe.player = 'O';
-        root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(
-            "game-view.fxml")));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root,500,600);
         stage.setScene(scene);
         stage.show();
     }
