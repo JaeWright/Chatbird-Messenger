@@ -4,11 +4,10 @@
 <h5 align="center"> Final Project (Winter 2022) </h5>
 <hr/> 
 
-![alt text](https://cdn.discordapp.com/attachments/943223294319026197/964199050763198504/unknown.png)
 
 
 <p align="center"> 
-<img src="" alt="" height="382px">
+<img src="https://cdn.discordapp.com/attachments/943223294319026197/964199050763198504/unknown.png" alt="" height="382px">
 </p>
 
 <h2>  📚 Group Information </h2> 
