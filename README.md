@@ -31,7 +31,7 @@ text chat with one another </p>
   <li> Run <b>Server.java </b> to get the server up and running </li>
   <li> Run <b> Application.java </b> to spawn a client </li>
   <li> Enter username and click login </li>
-  <li> Repeat step 2 for more clients </li>
+  <li> Repeat step 2 and 3 for more clients </li>
 </ol>
 
 
