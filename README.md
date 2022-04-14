@@ -11,7 +11,7 @@
 <h2> 💬 Overview </h2>
 
 <p> Welcome to ChatBird Messenger. This is a real-time messenger app that allows multiple users to 
-text chat with one another in real time </p> 
+text chat with one another </p> 
 
 <h2> 💿 How To Run </h2> 
 
