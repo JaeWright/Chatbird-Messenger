@@ -27,8 +27,11 @@ text chat with one another </p>
 
 <h4> Loading Up The Chat Application </h4> 
 
-<ol>
-  <li> Click on <b>Run</b> in the top tool bar </li>
+<ol style="font-size: 12px;">
+  <li> Run <b>Server.java </b> to get the server up and running </li>
+  <li> Run <b> Application.java </b> to spawn a client </li>
+  <li> Enter username and click login </li>
+  <li> Repeat step 1 and 2 for more clients </li>
 </ol>
 
 
