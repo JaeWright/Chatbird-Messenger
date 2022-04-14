@@ -10,8 +10,8 @@
 
 <h2> 💬 Overview </h2>
 
-<p> Welcome to <b> Chatbird Messenger </b>. This is a real-time messanging app that allows multiple users to text chat with one another in real time </p> 
-
+<p> Welcome to ChatBird Messenger. This is a real-time messanging app that allows multiple users to 
+  text chat with one another in real time </p> 
 
 <h2> 💿 How To Run </h2> 
 
