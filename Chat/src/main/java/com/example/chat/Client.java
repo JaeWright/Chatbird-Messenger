@@ -13,6 +13,7 @@ public class Client {
 
     private String username;
     public TextArea textBox;
+    private String msgFromGroupChat;
 
     public Client(Socket socket, String username, TextArea textBox) {
         this.textBox = textBox;
@@ -24,6 +25,7 @@ public class Client {
             this.out= new PrintWriter(socket.getOutputStream(),true);
 
         } catch (IOException e) {
+            e.printStackTrace();
             closeEverything(socket, in, out);
         }
     }
@@ -32,25 +34,25 @@ public class Client {
         Scanner scanner = new Scanner(System.in);
         while (socket.isConnected()) {
             String message = scanner.nextLine();
-            out.println(username + ": " + message);
+            //out.println(username + ": " + message);
         }
     }
 
-    public void sendMessage(String message) {
+    public void sendMessage(String message) throws IOException{
         out.println(message);
     }
 
-    public void listenForMessage() {
+    public void listenForMessage() throws IOException{
         new Thread(new Runnable() {
             @Override
             public void run() {
-                String msgFromGroupChat;
                 while (socket.isConnected()) {
                     try {
                         msgFromGroupChat = in.readLine();
-                        textBox.appendText(msgFromGroupChat + "\n");
                         System.out.println(msgFromGroupChat);
+                        textBox.appendText(msgFromGroupChat + '\n');
                     } catch (IOException e) {
+                        e.printStackTrace();
                         closeEverything(socket, in, out);
                     }
                 }

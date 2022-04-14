@@ -27,11 +27,11 @@ public class ChatController implements Initializable {
         System.exit(0);
     }
 
-    public void send() {
+    public void send() throws IOException {
         String message = username + ": " + sendText.getText();
-        System.out.println(message);
-        //textBox.appendText(message+ "\n");
-        client.sendMessage(message+ "\n");
+        //System.out.println(message);
+        //textBox.appendText(message+ " \n");
+        client.sendMessage(message);
         sendText.clear();
     }
 
@@ -47,6 +47,10 @@ public class ChatController implements Initializable {
         }
         assert socket != null;
         client = new Client(socket, username,textBox);
-        client.listenForMessage();
+        try {
+            client.listenForMessage();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
