@@ -69,7 +69,6 @@ public class Client {
         }).start();
     }
 
-    // Helper method to close everything so you don't have to repeat yourself.
     public void closeEverything(Socket socket, BufferedReader in, PrintWriter out) {
         try {
             if (null != in) {
@@ -94,7 +93,7 @@ public class Client {
         System.out.print("Enter your username for the group chat: ");
         String username = scanner.nextLine();
         // Create a socket to connect to the server.
-        Socket socket = new Socket("localhost", 1234);
+        Socket socket = new Socket("localhost", 2222);
 
         // Pass the socket and give the client a username.
         Client client = new Client(socket, username,null);

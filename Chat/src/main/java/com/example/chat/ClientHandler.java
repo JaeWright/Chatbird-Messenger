@@ -32,7 +32,7 @@ public class ClientHandler implements Runnable {
                 // Read what the client sent and then send it to every other client.
                 messageFromClient = in.readLine();
                 //System.out.println(messageFromClient);
-                broadcastMessage(messageFromClient);
+                sendMessage(messageFromClient);
             } catch (IOException e) {
                 closeEverything(socket, in, out);
                 break;
@@ -40,7 +40,7 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    public void broadcastMessage(String messageToSend) {
+    public void sendMessage(String messageToSend) {
         for (ClientHandler clientHandler : clientHandlers) {
             clientHandler.out.println(messageToSend);
         }
