@@ -20,7 +20,7 @@ text chat with one another </p>
 <ol>
   <li> Click on <b>Run</b> in the top tool bar </li>
   <li> From the drop down, click on <b>Edit Configurations</b> </li>
-  <li> A seperate window will pop up. Next Click on <b> Modify options towards the right side of the window </b></li>
+  <li> A seperate window will pop up. Next Click on <b> Modify options </b> towards the right side of the window </li>
   <li> Click on the option from the drop down, <b>Allow Multiple Instances</b></li>
 </ol>
 
