@@ -1,5 +1,5 @@
 
-<h1 align="center"> CHATBIRD </h1>
+<h1 align="center"> CHATBIRD MESSENGER </h1>
 <h3 align="center"> CSCI 2020 - Software Systems Dev and Integration </h3>
 <h5 align="center"> Final Project (Winter 2022) </h5>
 <hr/> 
@@ -9,6 +9,8 @@
 </p>
 
 <h2> 💬 Overview </h2>
+
+<p> Welcome to <b> Chatbird Messenger </b>. This is a real-time messanging app that allows multiple users to text chat with one another in real time </p> 
 
 
 <h2> 💿 How To Run </h2> 
