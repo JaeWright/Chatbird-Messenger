@@ -4,15 +4,15 @@
 <h5 align="center"> Final Project (Winter 2022) </h5>
 <hr/> 
 
-
-
 <p align="center"> 
 <img src="https://cdn.discordapp.com/attachments/943223294319026197/964199050763198504/unknown.png" alt="" height="382px">
 </p>
 
+
+
 <h2>  📚 Group Information </h2> 
 
-<ol>
+<ol style="font-size: 12px;">
   <li> Jackie Bai Tian Jiang (100789604) </li>
   <li> Amanda Showler (100790028) </li>
   <li> Jaelen Wright (100790481) </li>
