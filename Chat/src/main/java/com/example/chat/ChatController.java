@@ -45,7 +45,6 @@ public class ChatController implements Initializable {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         assert socket != null;
         client = new Client(socket, username,textBox);
         client.listenForMessage();

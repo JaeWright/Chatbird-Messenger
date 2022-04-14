@@ -7,8 +7,6 @@ import java.net.Socket;
 import java.util.Scanner;
 
 public class Client {
-
-    // A client has a socket to connect to the server and a reader and writer to receive and send messages respectively.
     private Socket socket;
     private BufferedReader in;
     private PrintWriter out;
@@ -30,38 +28,29 @@ public class Client {
         }
     }
     public void sendMessage() {
-        // Initially send the username of the client.
         out.println(username);
-        // Create a scanner for user input.
         Scanner scanner = new Scanner(System.in);
-        // While there is still a connection with the server, continue to scan the terminal and then send the message.
         while (socket.isConnected()) {
             String message = scanner.nextLine();
-            //textBox.appendText(username + ": " + message);
             out.println(username + ": " + message);
         }
     }
 
     public void sendMessage(String message) {
-        //textBox.appendText(message+'\n');
         out.println(message);
     }
 
-    // Listening for a message is blocking so need a separate thread for that.
     public void listenForMessage() {
         new Thread(new Runnable() {
             @Override
             public void run() {
                 String msgFromGroupChat;
-                // While there is still a connection with the server, continue to listen for messages on a separate thread.
                 while (socket.isConnected()) {
                     try {
-                        // Get the messages sent from other users and print it to the console.
                         msgFromGroupChat = in.readLine();
                         textBox.appendText(msgFromGroupChat + "\n");
                         System.out.println(msgFromGroupChat);
                     } catch (IOException e) {
-                        // Close everything gracefully.
                         closeEverything(socket, in, out);
                     }
                 }
@@ -85,9 +74,7 @@ public class Client {
         }
     }
 
-    // Run the program.
     public static void main(String[] args) throws IOException {
-
         // Get a username for the user and a socket connection.
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your username for the group chat: ");
@@ -97,7 +84,6 @@ public class Client {
 
         // Pass the socket and give the client a username.
         Client client = new Client(socket, username,null);
-        // Infinite loop to read and send messages.
         client.listenForMessage();
         client.sendMessage();
     }

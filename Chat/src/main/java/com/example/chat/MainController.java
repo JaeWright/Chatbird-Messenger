@@ -27,7 +27,7 @@ public class MainController {
         root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource(
             "chat-view.fxml")));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene = new Scene(root,600,400);
+        Scene scene = new Scene(root,525, 325);
         stage.setScene(scene);
         stage.show();
     }

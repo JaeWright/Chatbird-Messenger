@@ -14,9 +14,7 @@ public class Server {
 
     public void startServer() {
         try {
-            // Listen for connections (clients to connect) on port 1234.
             while (!serverSocket.isClosed()) {
-                // Will be closed in the Client Handler.
                 Socket socket = serverSocket.accept();
                 System.out.println("A new client has connected!");
                 ClientHandler clientHandler = new ClientHandler(socket);
@@ -28,7 +26,6 @@ public class Server {
         }
     }
 
-    // Close the server socket gracefully.
     public void closeServerSocket() {
         try {
             if (serverSocket != null) {
@@ -39,7 +36,6 @@ public class Server {
         }
     }
 
-    // Run the program.
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(2222);
         Server server = new Server(serverSocket);
