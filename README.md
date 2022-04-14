@@ -4,13 +4,17 @@
 <h5 align="center"> Final Project (Winter 2022) </h5>
 <hr/> 
 
-<h2> Group Information </h2> 
+<p align="center"> 
+<img src="" alt="" height="382px">
+</p>
+
+<h2>  📚 Group Information </h2> 
 
 <ol>
   <li> Jackie Bai Tian Jiang (100789604) </li>
   <li> Amanda Showler (100790028) </li>
   <li> Jaelen Wright (100790481) </li>
-  <li> Jackie Bai Tian Jiang (100794129) </li>
+  <li> Amit Sarvate (100794129) </li>
 </ol>
 
 
