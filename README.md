@@ -1,16 +1,4 @@
-# TICTACTOE GAME - CSCI 2020 Final Project 
+<h1 align="center"> ChatBird </h1>
+<h3 align="center"> CSCI 2020 - Software Systems Dev and Integration </h3>
+<h5 align="center"> Final Project (Winter 2022) </h5>
 
----
-
-## DONE BY: 
-
-1. Amit Sarvate (100794129)
-2. Jaelen Wright (100790481)
-3. Amanda Showler (100790028)
-4. Jackie Bai Tian Jiang (100789604)
-
----
-
-## OVERVIEW: 
-
-This is a Tic Tac Toe game done in Java that supports multithreading. 
