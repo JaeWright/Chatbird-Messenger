@@ -11,7 +11,9 @@
 <h2> 💬 Overview </h2>
 
 <p> Welcome to ChatBird Messenger. This is a real-time messenger app that allows multiple users to 
-  text chat with one another. <a href="https://youtu.be/yG0B5SN-DYM" target="_blank"> Click here </a> to a video explaining our application!</p> 
+  text chat with one another. </p>
+  
+<p> <a href="https://youtu.be/yG0B5SN-DYM" target="_blank"> Click here </a> to a video explaining our application!</p> 
 
 <h2> 💿 How To Run </h2> 
 
