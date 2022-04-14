@@ -17,7 +17,7 @@ text chat with one another </p>
 
 <h4> Check If Program Allows For 'Multiple Instances' </h4> 
 
-<ol>
+<ol style="font-size: 12px;">
   <li> Click on <b>Run</b> in the top tool bar </li>
   <li> From the drop down, click on <b>Edit Configurations</b> </li>
   <li> A seperate window will pop up. Next Click on <b> Modify options </b> towards the right side of the window </li>
