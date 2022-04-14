@@ -10,16 +10,21 @@
 
 <h2> 💬 Overview </h2>
 
-<p> Welcome to ChatBird Messenger. This is a real-time messanging app that allows multiple users to 
-  text chat with one another in real time </p> 
+<p> Welcome to ChatBird Messenger. This is a real-time messenger app that allows multiple users to 
+text chat with one another in real time </p> 
 
 <h2> 💿 How To Run </h2> 
 
+<p> To execute the application - complete the following steps </p>
+
+<ol>
+  <li> </li>
+</ol>
 
 
-<h2>  📚 Group Member Information </h2> 
+<h2>  📚 Credits (Group Member Information) </h2> 
 
-<ol style="font-size: 12px;">
+<ol>
   <li> Jackie Bai Tian Jiang  [100789604] </li>
   <li> Amanda Showler         [100790028] </li>
   <li> Jaelen Wright          [100790481] </li>
