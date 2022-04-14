@@ -3,6 +3,7 @@ package com.example.chat;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
@@ -13,6 +14,7 @@ import java.util.ResourceBundle;
 
 public class ChatController implements Initializable {
 
+    public Label name;
     private Client client;
     public static String username;
     @FXML
@@ -36,6 +38,7 @@ public class ChatController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         System.out.println(username);
+        name.setText(username);
         Socket socket = null;
         try {
             socket = new Socket("localhost", 2222);
