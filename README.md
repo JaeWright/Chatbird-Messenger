@@ -12,11 +12,7 @@
 
 <p> Welcome to ChatBird Messenger. This is a real-time messenger app that allows multiple users to 
   text chat with one another. </p>
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 2be55956ac415a24f072d3bf5abdcd8815257eb8
 <p> <a href="https://youtu.be/yG0B5SN-DYM" target="_blank"> Click here </a> to see a demo video explaining our application!</p> 
 
 https://user-images.githubusercontent.com/72675067/163494532-c63cf8ba-57f6-4911-9614-1f8b015d1992.mp4
@@ -41,7 +37,6 @@ https://user-images.githubusercontent.com/72675067/163494532-c63cf8ba-57f6-4911-
   <li> Enter username and click login </li>
   <li> Repeat step 2 and 3 for more clients </li>
 </ol>
-
 
 
 <h2>  📚 Credits (Group Member Information) </h2> 
