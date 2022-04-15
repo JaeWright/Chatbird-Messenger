@@ -6,7 +6,7 @@ import java.net.Socket;
 
 /**
  * Server class that interacts with the Client(s)
- * This class will send and recieve data to and from the server
+ * This class will send and receive data to and from the server
  * @author Jackie Jiang, Jaelen Wright, Amanda Showler, Amit Sarvate
  * @version 1.0
  * Date: Apr 10

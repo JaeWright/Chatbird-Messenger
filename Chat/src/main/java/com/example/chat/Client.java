@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  * Client class that interacts with the Server
- * This class will send and recieve data to and from the server
+ * This class will send and receive data to and from the server
  * @author Jackie Jiang, Jaelen Wright, Amanda Showler, Amit Sarvate
  * @version 1.0
  * Date: Apr 10
@@ -69,7 +69,7 @@ public class Client {
     }
 
     /**
-     * listenForMessage method that will try to recieve data
+     * listenForMessage method that will try to receive data
      * coming from the server and append said data to the textBox
      * @throws IOException
      */

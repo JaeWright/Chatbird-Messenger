@@ -35,8 +35,8 @@ public class ClientHandler implements Runnable {
 
     /**
      * run object that will implement runnable
-     * This is used to recieve any message coming from any client
-     * and send it back to the the connected client(s)
+     * This is used to receive any message coming from any client
+     * and send it back to the connected client(s)
      */
     @Override
     public void run() {
@@ -56,7 +56,7 @@ public class ClientHandler implements Runnable {
 
     /**
      * sendMessage client that will send a message to all
-     * of the connected clients
+     * the connected clients
      * @param messageToSend
      */
     public void sendMessage(String messageToSend) {

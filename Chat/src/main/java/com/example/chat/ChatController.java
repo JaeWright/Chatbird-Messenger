@@ -49,8 +49,8 @@ public class ChatController implements Initializable {
     }
     
     /**
-     * initalize object that will initialize the controller
-     * This method will aslo create a new client class that will 
+     * initialize object that will initialize the controller
+     * This method will also create a new client class that will
      * connect with the server 
      */
     @Override
