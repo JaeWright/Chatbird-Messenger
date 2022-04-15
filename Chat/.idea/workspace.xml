@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45713631-ab44-4e7a-aaf3-fee4d1bb4bc6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-    </list>
+    <list default="true" id="45713631-ab44-4e7a-aaf3-fee4d1bb4bc6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ServerClient/ServerChat - Copy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">

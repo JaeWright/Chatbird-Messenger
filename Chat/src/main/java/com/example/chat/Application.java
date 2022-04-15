@@ -27,7 +27,7 @@ public class Application extends javafx.application.Application {
     }
 
     /**
-     * main method
+     * main method that will launch the application
      */
     public static void main(String[] args) {
         //launch the application
