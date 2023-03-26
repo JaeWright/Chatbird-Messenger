@@ -42,9 +42,9 @@ https://user-images.githubusercontent.com/72675067/163494532-c63cf8ba-57f6-4911-
 <h2>  📚 Credits (Group Member Information) </h2> 
 
 <ol>
-  <li> Jackie Bai Tian Jiang  [100789604] </li>
-  <li> Amanda Showler         [100790028] </li>
-  <li> Jaelen Wright          [100790481] </li>
-  <li> Amit Sarvate           [100794129] </li>
+  <li> Jackie Bai Tian Jiang</li>
+  <li> Amanda Showler</li>
+  <li> Jaelen Wright</li>
+  <li> Amit Sarvate</li>
 </ol>
 
